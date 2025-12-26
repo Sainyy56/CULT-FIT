@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+section .main-div{
+    background-color: #15171C;
+}
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    position: fixed;
+    /* padding: 10px 20px; */
+    background-color: #15171C;
+    /* color:#333; */
+    width: 100vw;
+    height: 60px;
+}
+
+.navbar img {
+    margin: 10px;
+    width: 140px;
+    height: auto;
+}
+.navbar-links{
+    position: fixed;
+    top: 0px;
+    right: 600px;
+    height: 70px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 60px;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(255 255 255 / 60%);
+    list-style: none;
+}
+.navbar-logins{
+    position: fixed;
+    top: 0px;
+    right: 20px;
+    height: 70px;
+    display: flex;
+    gap:15px;
+    align-items: center;
+    font-size: large;
+    color: rgb(255 255 255 / 60%);
+    list-style: none;
+}
+.navbar-logins img{
+    width: 20px;
+    height: auto;
+    padding: 0px;
+    gap: 0px;
+}
+.get-app{
+    border: 2px solid rgba(255, 255, 255, 0.75);
+    border-radius: 5px;
+    color: white;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+.location{
+    width: 100px;
+    height:30px;
+    margin: 15px;
+    color: rgb(255 255 255 / 60%);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.CART-IMG IMG{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+    margin: 0px;
+    background-color: none;
+}   
+.PROFILE-IMG IMG{
+    width: 50px;
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+    background-color: none;
+}
+.location:hover{
+    cursor: pointer;
+    background-color: rgb(143, 141, 141);
+    border-radius: 5px;
+    width:112px;
+    height:30px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.CART-IMG:hover{
+    background-color: rgb(90, 90, 90);
+    border: 2px solid rgb(90, 90, 90);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.PROFILE-IMG:hover{
+    background-color: rgb(90, 90, 90);
+    cursor: pointer;
+    border: 2px solid rgb(90, 90, 90);
+    border-radius: 50%;
+}
+.top-pic img {
+    
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    height: auto;
+    padding:0px;
+    margin:0px;
+}
+.navdown{
+    background-color: #15171C;
+    position: absolute;
+    width: 100vw;
+    height: 105vh;
+    top: 503px;
+    left: 0px;
+}
+.navdown img{
+    position: absolute;
+    top: 170px;
+    left: 500px;
+    width: 500px;
+    height: 120px;
+}
+.scroll-bar{
+    padding: 3px;
+    position: absolute;
+    width: 700px;
+    height: 300px;
+    top: 850px;
+    left: 150px;
+}
+.scroll-container{
+    display: flex;
+    width: 1235px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+
+}
+.scroll-bar img{
+    min-width: 400px;
+    height: 420px;
+    border-radius: 20px;
+    padding: 5px;
+    position: relative;
+
+}
+.scrollbar-para{
+    position: absolute;
+    top:1300px;
+    left: 570px;
+    color: #ffffff59;
+    padding: 5px 0 10px;
+    text-align: center;
+    font-size: 17px;
+}
+.below-scroll-bar{
+    position: absolute;
+    top: 1335px;
+}
+.below-scroll-bar img{
+    width: 100vw;
+}
+.navdown1{
+    background-color: #15171C;
+    position: absolute;
+    width: 100vw;
+    height: 105vh;
+    top: 1835px;
+    left: 0px;
+}
+.navdown1 img{
+    position: absolute;
+    top: 170px;
+    left: 500px;
+    width: 500px;
+    height: 120px;
+}
